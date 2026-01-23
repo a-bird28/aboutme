@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="58mm"
+   height="58mm"
+   viewBox="0 0 58 58"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <meshgradient
+       id="meshgradient24535"
+       gradientUnits="userSpaceOnUse"
+       x="61.859985"
+       y="105.34846"
+       gradientTransform="translate(-7.4866273,8.5631051)">
+      <meshrow
+         id="meshrow24595">
+        <meshpatch
+           id="meshpatch24595">
+          <stop
+             path="c 11.3252,-11.3252  29.687,-11.3252  41.0122,0"
+             style="stop-color:#ffffff;stop-opacity:0"
+             id="stop24595" />
+          <stop
+             path="c 11.3252,11.3252  11.3252,29.687  0,41.0122"
+             style="stop-color:#ff0068;stop-opacity:1"
+             id="stop24596" />
+          <stop
+             path="c -11.3252,11.3252  -29.687,11.3252  -41.0122,0"
+             style="stop-color:#ffffff;stop-opacity:0"
+             id="stop24597" />
+          <stop
+             path="c -11.1898,-9.15828  -11.3637,-32.1394  -7.10543e-15,-41.0122"
+             style="stop-color:#ff00ec;stop-opacity:1"
+             id="stop24598" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-45.879456,-105.41768)">
+    <circle
+       style="opacity:1;fill:url(#meshgradient24535);fill-opacity:1;fill-rule:evenodd;stroke:#ffff00;stroke-width:0;paint-order:markers fill stroke"
+       id="path24231"
+       cx="74.879456"
+       cy="134.41768"
+       r="29" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8212px;line-height:2.48421px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:-0.375631px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-rule:evenodd;stroke-width:0;paint-order:markers fill stroke"
+       x="74.756165"
+       y="146.09891"
+       id="text1-5-2"><tspan
+         id="tspan1-1-4"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:30.8212px;font-family:'.Aqua Kana';-inkscape-font-specification:'.Aqua Kana, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#ffffff;stroke:#ff0000;stroke-width:0"
+         x="74.568352"
+         y="146.09891">ab</tspan></text>
+  </g>
+</svg>
