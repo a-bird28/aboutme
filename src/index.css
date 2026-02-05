@@ -1,13 +1,126 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", Arial, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a10;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Roboto", Arial, serif;
+}
+
+h1 {
+  font-family: "dejavu-sans", sans-serif;
+  font-weight: 800;
+  font-style: bold;
+}
+
+h2 {
+  font-family: "dejavu-sans", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color:#00BA60
+}
+
+.pink {
+  color: #FF5985;
+}
+
+.red {
+  color: #DB002C;
+}
+
+.black {
+  color: #161623;
+}
+
+.green {
+  color: #00BA60;
+}
+
+.blue {
+  color:#91BBFF;
+}
+
+.middle {
+  color:#2E2E49;
+}
+
+.light {
+  color:#F2F2FF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a0a10;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #2E2E49;
+}
+
+.navlink {
+  font-family: "dejavu-sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.siteHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.5rem 2rem;
+}
+
+.navList {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color:#DB002C
+}
+
+.title:hover {
+    text-shadow: 0 0 5px #F2F2FF, 0 0 10px #F2F2FF, 0 0 20px #F2F2FF, 0 0 40px #91BBFF, 0 0 80px #91BBFF;
+    animation: glow 4s infinite alternate;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 0px 0px 0 #FF5985, 0px 0px 0 #FF5985;
+    }
+    50% {
+        text-shadow: 2.5px 2px 0 #FF5985, 5px 4.5px 0 #FF5985;
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #F2F2FF, 0 0 10px #F2F2FF, 0 0 20px #F2F2FF, 0 0 40px #91BBFF, 0 0 80px #91BBFF;
+    }
+    100% {
+        text-shadow: 0 0 10px #F2F2FF, 0 0 20px #F2F2FF, 0 0 40px #FF5985, 0 0 80px #FF5985, 0 0 160px #FF5985;
+    }
 }
