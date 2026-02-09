@@ -1,6 +1,10 @@
+import project_schema from "projects.json" with { type: "json"}
+console.log(project_schema.chea_kg)
+
 export default function Home() {
   return (
-    <h2> this is my home page </h2>
-    
+    <div class='caption'>
+      <h2> Projects </h2>
+    </div>
   );
 }
