@@ -1,6 +1,7 @@
 export default function Home() {
   return (
-    <h2> this is my home page </h2>
-    
+    <div>
+      <h2 style={{color:"#DB002C", textAlign:'center'}}> Welcome to my site! </h2>
+    </div>
   );
 }

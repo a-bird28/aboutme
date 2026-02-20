@@ -8,7 +8,9 @@ import About from './routes/About'
 function App() {
   return <BrowserRouter>
       <header className='siteHeader'>
-          <h1 className='red title'>Anna Byrd</h1>
+          <a href="/" style={{textDecoration:'none'}}>
+            <h1 className='title'>Anna Byrd</h1>
+          </a>
           <nav>
               <ul className='navList'>
                   <li><a href="/projects" className='navlink green'>Projects</a></li>
@@ -18,7 +20,6 @@ function App() {
           </nav>
       </header>
       <Routes>
-        {/* All the end points goes here */}
         <Route path='/' index element={<Home />} />
         <Route path='/projects' element={<Projects/>} />
         <Route path='/contact' element={<Contact /> } />

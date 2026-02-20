@@ -24,7 +24,7 @@ const projectCardTitle = {
 export default function Projects() {
   return (
     <div className='caption'>
-      <h2> Projects </h2>
+      <h2 style={{color:"#00BA60"}}> Projects </h2>
       <div>
         <Accordion sx={projectCard}>
           <AccordionSummary
