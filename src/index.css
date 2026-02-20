@@ -31,7 +31,7 @@ h2 {
   color: #DB002C;
 }
 
-.black {
+.main {
   color: #161623;
 }
 
@@ -127,7 +127,14 @@ ul li a:hover {
 
 .caption {
           display: flex;
-          flex-direction: columns;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
         }
+
+
+.project-card-text {
+  font-family: "dejavu-sans", sans-serif;
+  font-weight: 200;
+  color: #F2F2FF
+}
