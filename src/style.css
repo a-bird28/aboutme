@@ -143,13 +143,25 @@ ul li a:hover {
 }
 
 .title {
-  color:#DB002C;
-  text-decoration:none
+  color:var(--red);
+  font-size:38px;
+  text-decoration:none;
+  font-weight:400;
+  font-family: "ChicagoFLFRegular", sans-serif;
+  -webkit-text-stroke: 1px var(--red);
+  text-shadow: 2px 2px 0px #fd7fa1;
 }
 
 .title:hover {
     text-shadow: 0 0 5px var(--light), 0 0 10px var(--light), 0 0 20px var(--light), 0 0 40px var(--blue), 0 0 80px var(--blue);
     animation: glow 4s infinite alternate;
+}
+
+@font-face {
+  font-family: "ChicagoFLFRegular";
+  src: url('/ChicagoFLF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @keyframes shadow-dance {
@@ -370,4 +382,36 @@ a.button {
 .footer-icon:hover {
   transform: translateY(-3px);
   filter: drop-shadow(0 0 10px var(--blue));
+}
+
+.sparkles-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.sparkle-wrapper {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sparkle-wrapper {
+    animation: comeInOut 700ms forwards;
+  }
+  .sparkle-svg {
+    animation: spin 1000ms linear;
+  }
+}
+
+.sparkle-child {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+@keyframes comeInOut {
+  0%   { transform: scale(0); }
+  50%  { transform: scale(0.5); }
+  100% { transform: scale(0); }
 }

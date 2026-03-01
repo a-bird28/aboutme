@@ -1,4 +1,5 @@
 import './style.css'
+import { initSparkles } from './sparkles'
 
 async function loadHeader() {
   const header = document.getElementById("header");
@@ -76,6 +77,7 @@ function initPageSpecificScripts() {
 async function bootstrap() {
   await loadHeader();
   await loadFooter();
+  initSparkles('#sparkles');
   initAccordions();
   initPageSpecificScripts();
 }
