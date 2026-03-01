@@ -4,7 +4,7 @@ async function loadHeader() {
   const header = document.getElementById("header");
   if (!header) return;
 
-  const res = await fetch("/partials/header.html");
+  const res = await fetch(import.meta.env.BASE_URL + "partials/header.html");
   header.innerHTML = await res.text();
 
   highlightActiveNav();
@@ -14,7 +14,7 @@ async function loadFooter() {
   const footer = document.getElementById("footer");
   if (!footer) return;
 
-  const res = await fetch("/partials/footer.html");
+  const res = await fetch(import.meta.env.BASE_URL + "partials/footer.html");
   footer.innerHTML = await res.text();
 }
 
