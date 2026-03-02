@@ -109,7 +109,7 @@ ul li a:hover {
 .navlink {
   font-family: "dejavu-sans", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
@@ -118,27 +118,6 @@ ul li a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 2rem;
-}
-
-@media (max-width: 600px) {
-  .siteHeader {
-    padding: 1rem;
-  }
-
-  .navList {
-    gap: 1rem;
-    padding: 0;
-    margin: 0;
-  }
-
-  .navList li {
-    padding: 0;
-    margin: 0;
-  }
-
-  ul li a {
-    padding: 0px 0px;
-  }
 }
 
 .navList {
@@ -151,7 +130,7 @@ ul li a:hover {
 
 .title {
   color:var(--red);
-  font-size:38px;
+  font-size:45px;
   text-decoration:none;
   font-weight:400;
   font-family: "ChicagoFLFRegular", sans-serif;
@@ -247,7 +226,7 @@ ul li a:hover {
 .project-title {
   font-family: "DejaVu Sans", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--green);
   text-align: left;
 }
@@ -342,6 +321,8 @@ a.button {
 
 .social-icon {
   transition: transform 0.25s ease, filter 0.25s ease;
+  width:100px;
+  padding-top:100px
 }
 
 .social-icon:hover {
@@ -429,8 +410,43 @@ a.button {
 }
 
 @media (max-width: 600px) {
+  .siteHeader {
+    padding: 1rem;
+  }
+
+  .navList {
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navLink {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 35px
+  }
+
+  .navList li {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li a {
+    padding: 0px 0px;
+  }
+
   .gif-container {
     width: 100%;
     height: 100%;
   }
+
+  .social-icon {
+    width:70px
+  }
+  .social-container {
+    gap: 4rem;
+  }
+  
 }
