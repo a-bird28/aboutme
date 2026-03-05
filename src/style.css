@@ -16,6 +16,12 @@ p {
   color: #F2F2FF
 }
 
+li {
+  font-family: "dejavu-sans", sans-serif;
+  font-size: 18px;
+  color: #F2F2FF
+}
+
 h1 {
   font-family: "dejavu-sans", sans-serif;
   font-weight: 800;
